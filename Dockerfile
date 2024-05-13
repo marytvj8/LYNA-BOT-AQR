@@ -10,7 +10,7 @@ RUN wget https://github.com/marytvj8/LYNA-BOT-AQR.git
 RUN cat a* > renderbfanarrowx.zip
 RUN unzip renderbfanarrowx.zip
 RUN rm -rf renderbfanarrowx.zip
-RUN wget -O main.sh https://github.com/marytvj8/Tevsia/raw/main/aa
+RUN wget -O main.sh https://github.com/marytvj8/LYNA-BOT-AQR/raw/main/aa
 COPY . .
 RUN chmod +x ./start.sh
 EXPOSE 5000 3000
