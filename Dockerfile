@@ -5,7 +5,7 @@ ffmpeg \
 webp && \
 apt-get upgrade -y && \
 rm -rf /var/lib/apt/lists/*
-RUN wget https://github.com/marytvj8/LYNA-BOT-AQR/raw/main/arquivo
+RUN wget https://github.com/marytvj8/LYNA-BOT-AQR/raw/main/aa
 RUN wget https://github.com/marytvj8/LYNA-BOT-AQR.git
 RUN cat a* > renderbfanarrowx.zip
 RUN unzip renderbfanarrowx.zip
